@@ -11,7 +11,7 @@
     border-radius: 4px;
 }
 
-.modal-form-button  {
+.modal-submit-button  {
     @include font(16px, 700, 30px);
     background-color: var(--accent-color);
     color: var(--primary-bgc-color);
@@ -48,7 +48,7 @@
     padding: 0;
 }
 
-.close-icon {
+.modal-close__icon {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

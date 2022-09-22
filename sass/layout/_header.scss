@@ -20,11 +20,6 @@
     display: flex;
     column-gap: 50px;
 
-  .link.current {
-    color: var(--accent-color);
-    height: 100%;
-  }
-
   .link:hover,
   .link:focus {
     color: var(--accent-color);
@@ -40,6 +35,11 @@
     display: flex;
     column-gap: 50px;
     margin-left: auto;
+}
+
+.menu__link_current.link {
+  color: var(--accent-color);
+  height: 100%;
 }
 
 .menu__link_current::after {
